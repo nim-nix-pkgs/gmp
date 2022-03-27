@@ -11,6 +11,7 @@
   inputs.src-gmp-master.ref   = "refs/heads/master";
   inputs.src-gmp-master.owner = "subsetpark";
   inputs.src-gmp-master.repo  = "nim-gmp";
+  inputs.src-gmp-master.dir   = "";
   inputs.src-gmp-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
