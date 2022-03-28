@@ -11,7 +11,6 @@
   inputs.src-gmp-v0_2_4.ref   = "refs/tags/v0.2.4";
   inputs.src-gmp-v0_2_4.owner = "subsetpark";
   inputs.src-gmp-v0_2_4.repo  = "nim-gmp";
-  inputs.src-gmp-v0_2_4.dir   = "";
   inputs.src-gmp-v0_2_4.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
